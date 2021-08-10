@@ -1,0 +1,75 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+    color: white;
+
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background: url("../img/gearbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#mainHeading{
+
+    margin-top: 2vh;
+    text-align: center;
+
+}
+
+#navbarWrapper{
+
+    margin-top: 1vh;
+    margin-bottom:7vh;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 7vh;
+
+    text-align: center;
+
+}
+
+.button{
+
+    text-decoration: none;
+
+}
+
+.button:hover{
+
+    font-size: 110%;
+    transition: 0.1s;
+
+}
+
+.disciplineWrapper{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 11vh);
+
+    text-align: center;
+    
+}
+
+.disciplines:hover{
+
+    font-size: 120%;
+    transition: 0.2s;
+
+}
+
+
+
+

@@ -1,0 +1,75 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+
+    box-sizing: border-box;
+
+}
+
+body{
+
+    background-image: url(../img/about_us.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: white;
+
+}
+
+#navbarWrapper{
+
+    margin-top: 1vh;
+    margin-bottom: 7vh;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 7vh;
+    
+    text-align: center;
+
+}
+
+h1{
+
+    margin-top: 2vh;
+    text-align: center;
+
+}
+
+.button{
+
+    text-decoration: none;
+    color: white;
+
+}
+
+.button:hover{
+
+    font-size: 110%;
+    transition: 0.1s;
+
+}
+
+h2{
+
+    text-align: center;
+
+}
+
+.aboutUs{
+
+    background-color: rgba(0,0,0,0.9);
+    
+    width: 70vw;
+    height: auto;
+
+    margin: auto;
+    margin-bottom: 7vh;
+
+    padding: 2vw;
+
+}
+
